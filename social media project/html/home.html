@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socialmedia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <div class="nav">
+        <div class="logo"><h2>Social Media</h2></div>
+        <div class="search">
+          <input type="text" placeholder="Search for posts" />
+        </div>
+        <div class="headcreate">
+          <button>Create</button>
+          <img src="/images/profile-1.jpg" alt="" />
+        </div>
+      </div>
+    </header>
+    <!--main-->
+    <div class="container">
+      <div class="left">
+        <div class="profile">
+          <div class="profile-photo">
+            <img src="/images/profile-1.jpg" alt="" />
+          </div>
+          <div class="abt">
+            <h4><b>Dhiya</b></h4>
+            <small>@dhiya</small>
+          </div>
+        </div>
+        <div class="sidebar">
+          <div class="home menu-item">
+            <a href=""><i class="fa-solid fa-house"></i>Home</a><br />
+          </div>
+          <div class="explore menu-item">
+            <a href=""><i class="fa-solid fa-compass"></i>Explore</a><br />
+          </div>
+          <div class="notification menu-item" id="notify1">
+            <a id="notify-button"><i class="fa-solid fa-bell"></i>Notification</a><br />
+             <div class="notification-values" id="notification-val">
+              <div class="not-val1">
+                <img src="/images/profile-2.jpg" alt="">
+                <p><b>Vignesh</b>commented on your post</p>
+                <small>4 min ago</small>
+              </div>
+              <div class="not-val1">
+                <img src="/images/profile-3.jpg" alt="">
+                <p><b>Vinothini</b>Liked your story</p>
+                <small>4 min ago</small>
+              </div>
+              <div class="not-val1">
+                <img src="/images/profile-4.jpg" alt="">
+                <p><b>Vikram</b>reacted to your message</p>
+                <small>4 min ago</small>
+              </div>
+              <div class="not-val1">
+                <img src="/images/profile-5.jpg" alt="">
+                <p><b>ramesh</b>commented on your post</p>
+                <small>4 min ago</small>
+              </div>
+              <div class="not-val1">
+                <img src="/images/profile-6.jpg" alt="">
+                <p><b>deepa</b>sent you an attachment</p>
+                <small>4 min ago</small>
+              </div>
+             </div>
+          </div>
+          <div class="messages menu-item">
+            <a href=""><i class="fa-solid fa-envelope"></i>Messages</a><br />
+          </div>
+          <div class="saved menu-item">
+            <a href=""><i class="fa-solid fa-bookmark"></i>Saved</a><br />
+          </div>
+          <div class="insights menu-item">
+            <a href=""><i class="fa-solid fa-chart-line"></i>Insights</a><br />
+          </div>
+          <div class="themes menu-item">
+            <a href=""><i class="fa-brands fa-affiliatetheme"></i>Themes</a
+            ><br />
+          </div>
+          <div class="settings menu-item">
+            <a href=""><i class="fa-solid fa-gear"></i>Settings</a>
+          </div>
+        </div>
+        <div class="left-button"><button>Create post</button></div>
+      </div>
+      <div class="center">
+        <!--stories-->
+       <div class="stories">
+        <div class="story">
+          <div class="story-profile"><img src="/images/profile-11.jpg" alt=""></div>
+          <div class="story-name"><p>Your story</p></div>
+        </div>
+        <div class="story">
+          <div class="story-profile"><img src="/images/profile-7.jpg" alt=""></div>
+          <div class="story-name"><p>Vignesh</p></div>
+        </div>
+        <div class="story">
+          <div class="story-profile"><img src="/images/profile-8.jpg" alt=""></div>
+          <div class="story-name"><p>Vinothini</p></div>
+        </div>
+        <div class="story">
+          <div class="story-profile"><img src="/images/profile-9.jpg" alt=""></div>
+          <div class="story-name"><p>vikram</p></div>
+        </div>
+        <div class="story">
+          <div class="story-profile"><img src="/images/profile-10.jpg" alt=""></div>
+          <div class="story-name"><p>Ramesh</p></div>
+        </div>
+        <div class="story">
+          <div class="story-profile"><img src="/images/profile-11.jpg" alt=""></div>
+          <div class="story-name"><p>shakthi</p></div>
+        </div>
+       </div>
+       <!--create post-->
+       <div class="create-post">
+        <div class="create-profile"><img src="/images/profile-1.jpg" alt=""></div>
+        <div class="type-post">
+          <input type="text" placeholder="what's on your mind lets create everything">
+        </div> 
+        <div class="create-btn"><button>post</button></div>
+      </div>
+      <!--posts-->
+      <div class="social-posts">
+        <!--post1 start-->
+        <div class="social-post1">
+          <div class="social-head">
+            <div class="social-profile">
+              <img src="/images/profile-12.jpg" alt="">
+              <div class="social-profile-name">
+                <p>Vinothini</p>
+              <small>
+                Dubai,15mins ago
+              </small>
+              </div> 
+            </div>
+            <div class="social-options">
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+          </div>
+          <div class="social-photo">
+            <img src="/images/feed-2.jpg" alt="" width="500">
+          </div>
+          <div class="social-reactions">
+            <div class="social-likes">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-comment"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+            <div class="social-saves">
+              <i class="fa-solid fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="social-post1">
+          <div class="social-head">
+            <div class="social-profile">
+              <img src="/images/profile-13.jpg" alt="">
+              <div class="social-profile-name">
+                <p>Vinothini</p>
+              <small>
+                Dubai,15mins ago
+              </small>
+              </div> 
+            </div>
+            <div class="social-options">
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+          </div>
+          <div class="social-photo">
+            <img src="/images/feed-3.jpg" alt="" width="500">
+          </div>
+          <div class="social-reactions">
+            <div class="social-likes">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-comment"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+            <div class="social-saves">
+              <i class="fa-solid fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="social-post1">
+          <div class="social-head">
+            <div class="social-profile">
+              <img src="/images/profile-14.jpg" alt="">
+              <div class="social-profile-name">
+                <p>Vinothini</p>
+              <small>
+                Dubai,15mins ago
+              </small>
+              </div> 
+            </div>
+            <div class="social-options">
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+          </div>
+          <div class="social-photo">
+            <img src="/images/feed-4.jpg" alt="" width="500">
+          </div>
+          <div class="social-reactions">
+            <div class="social-likes">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-comment"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+            <div class="social-saves">
+              <i class="fa-solid fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="social-post1">
+          <div class="social-head">
+            <div class="social-profile">
+              <img src="/images/profile-15.jpg" alt="">
+              <div class="social-profile-name">
+                <p>Vinothini</p>
+              <small>
+                Dubai,15mins ago
+              </small>
+              </div> 
+            </div>
+            <div class="social-options">
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+          </div>
+          <div class="social-photo">
+            <img src="/images/feed-5.jpg" alt="" width="500">
+          </div>
+          <div class="social-reactions">
+            <div class="social-likes">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-comment"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+            <div class="social-saves">
+              <i class="fa-solid fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="social-post1">
+          <div class="social-head">
+            <div class="social-profile">
+              <img src="/images/profile-16.jpg" alt="">
+              <div class="social-profile-name">
+                <p>Vinothini</p>
+              <small>
+                Dubai,15mins ago
+              </small>
+              </div> 
+            </div>
+            <div class="social-options">
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+          </div>
+          <div class="social-photo">
+            <img src="/images/feed-7.jpg" alt="" width="500">
+          </div>
+          <div class="social-reactions">
+            <div class="social-likes">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-comment"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+            <div class="social-saves">
+              <i class="fa-solid fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="social-post1">
+          <div class="social-head">
+            <div class="social-profile">
+              <img src="/images/profile-18.jpg" alt="">
+              <div class="social-profile-name">
+                <p>Vinothini</p>
+              <small>
+                Dubai,15mins ago
+              </small>
+              </div> 
+            </div>
+            <div class="social-options">
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+          </div>
+          <div class="social-photo">
+            <img src="/images/feed-1.jpg" alt="" width="500">
+          </div>
+          <div class="social-reactions">
+            <div class="social-likes">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-comment"></i>
+              <i class="fa-solid fa-share"></i>
+            </div>
+            <div class="social-saves">
+              <i class="fa-solid fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <!--post1 end-->
+      </div>
+      </div>
+      <div class="right">
+        <!--messages-->
+        <div class="messages1" id="msg-id">
+          <div class="message">
+            <div class="msg-head">
+              <h4>messages</h4>
+              <i class="fa-regular fa-pen-to-square"></i>
+            </div>
+            <div class="msg-search" >
+              <input type="text" placeholder="search messages" id="msgsearchid">
+            </div>
+            <div class="msg-catogory">
+              <h6>primary</h6>
+              <h6>General</h6>
+              <h6>Request(2)</h6>
+              
+            </div>
+            <div class="msg-catogory-status"></div>
+            <div class="message1">
+              <img src="/images/profile-12.jpg" alt="">
+              <div class="msg1-name">
+                <p><b>vignesh</b></p>
+                <small>hi bro whatsup bro!</small>
+              </div>
+            </div>
+            <div class="message1">
+              <img src="/images/profile-16.jpg" alt="">
+              <div class="msg1-name">
+                <p><b>ragul</b></p>
+                <small>hi bro whatsup bro!</small>
+              </div>
+            </div>
+            <div class="message1">
+              <img src="/images/profile-11.jpg" alt="">
+              <div class="msg1-name">
+                <p><b>vinothini</b></p>
+                <small>hi bro whatsup bro!</small>
+              </div>
+            </div>
+            <div class="message1">
+              <img src="/images/profile-10.jpg" alt="">
+              <div class="msg1-name">
+                <p><b>ramesh</b></p>
+                <small>hi bro whatsup bro!</small>
+              </div>
+            </div>
+            <div class="message1">
+              <img src="/images/profile-9.jpg" alt="">
+              <div class="msg1-name">
+                <p><b>gopal</b></p>
+                <small>hi bro whatsup bro!</small>
+              </div>
+            </div>
+            <div class="message1">
+              <img src="/images/profile-19.jpg" alt="">
+              <div class="msg1-name">
+                <p><b>vikram</b></p>
+                <small>hi bro whatsup bro!</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--requests-->
+        <div class="msg-requests">
+          <div class="req-profile">
+            <img src="/images/profile-18.jpg" alt="">
+            <div class="req-name">
+              <p>Vinothini</p>
+              <small>3 mutuals</small>
+            </div>
+          </div>
+          <div class="req-accept">
+            <button class="req-active">Accept</button>
+            <button class="req-decline">Decline</button>
+          </div>
+        </div>
+        <div class="msg-requests">
+          <div class="req-profile">
+            <img src="/images/profile-19.jpg" alt="">
+            <div class="req-name">
+              <p>Vignesh</p>
+              <small>3 mutuals</small>
+            </div>
+          </div>
+          <div class="req-accept">
+            <button class="req-active">Accept</button>
+            <button class="req-decline">Decline</button>
+          </div>
+        </div>
+        <div class="msg-requests">
+          <div class="req-profile">
+            <img src="/images/profile-15.jpg" alt="">
+            <div class="req-name">
+              <p>vikram</p>
+              <small>3 mutuals</small>
+            </div>
+          </div>
+          <div class="req-accept">
+            <button class="req-active">Accept</button>
+            <button class="req-decline">Decline</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--theme customization-->
+    <div class="customize-theme">
+      <div class="card">
+        <h4 class="cardval1">customize your view</h4>
+        <p class="cardval2">manage your font,color and background</p>
+        <div class="font-custom">
+          <p>font-size</p>
+          <div class="font-container">
+            <p>Aa</p>
+            <div class="font-themes">
+              <span class="font-size1"></span>
+              <span class="font-size2"></span>
+              <span class="font-size3"></span>
+              <span class="font-size4"></span>
+              <span class="font-size5"></span>             
+            </div>
+            <h4>Aa</h4>
+          </div>
+        </div>
+        <div class="color-custom">
+          <p>color</p>
+          <div class="color-container">
+            <span class="color-theme1"></span>
+            <span class="color-theme2"></span>
+            <span class="color-theme3"></span>
+            <span class="color-theme4"></span>
+            <span class="color-theme5"></span>
+          </div>
+        </div>
+        <div class="bg-custom">
+          <p>background</p>
+          <div class="bg-container">
+            <div class="bg1">
+              <span></span>
+              <small>Light</small>
+            </div>
+            <div class="bg2">
+              <span></span>
+              <small>Dim</small>
+            </div>
+            <div class="bg3">
+              <span></span>
+              <small>Dark</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/home.js"></script>
+  </body>
+</html>
